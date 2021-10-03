@@ -11,7 +11,7 @@ export class CreditsPanel extends PIXI.Container {
 
         super();
 
-        this._texts.push(new PIXI.Text('Thank you for playing "Sequence: "UNSTABLE"', Assets.UI.FontLarge));
+        this._texts.push(new PIXI.Text('Thank you for playing Sequence: "UNSTABLE"', Assets.UI.FontLarge));
         this._texts.push(new PIXI.Text('A game made for Ludum Dare 49 by', Assets.UI.FontLarge));
         this._texts.push(new PIXI.Text('Sigrath', Assets.UI.FontLarge));
 
