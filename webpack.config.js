@@ -19,7 +19,7 @@ module.exports = {
                 loader: "ts-loader",
                 exclude: /node_modules/
             }, {
-                test: /\.(png|jpg|bmp)$/,
+                test: /\.(png|jpg|ogg|wav)$/,
                 use: [{
                   loader: 'file-loader',
                   options: {
